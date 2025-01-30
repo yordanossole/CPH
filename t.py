@@ -26,4 +26,5 @@ class Solution:
             dummy.next = ListNode(num)
             dummy = dummy.next
         
+        
         return res.next    
