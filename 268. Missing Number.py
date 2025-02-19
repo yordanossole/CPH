@@ -1,5 +1,5 @@
 class Solution:
-    def missingNumber(self, nums: List[int]) -> int:
+    def missingNumber(self, nums: nt]) -> int:
         # n = len(nums) + 1
         # for i in range(n):
         #     if not i in nums:
