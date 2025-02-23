@@ -1,19 +1,5 @@
 class Solution:
-    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        # result = []
-        # if len(nums1) > len(nums2):
-        #     longer = nums1
-        #     shorter = nums2
-        # else:
-        #     longer = nums2
-        #     shorter = nums1
-            
-        # for num in shorter:
-        #     if num in longer:
-        #         result.append(num)
-        # return list(set(result))
-
-        
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:       
         st = set(nums1)
         result = []
         for num in nums2:
