@@ -8,5 +8,6 @@ class Solution:
                     nums2.remove(num)
                 except:
                     pass
-        return result             
+        return result     
+            
         
