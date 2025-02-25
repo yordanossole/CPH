@@ -17,7 +17,7 @@ class Solution:
         st = set(nums1)
         result = []
         for num in nums2:
-            if num in mp:
+            if num in st:
                 result.append(num)
                 st.remove(num)
         return result
